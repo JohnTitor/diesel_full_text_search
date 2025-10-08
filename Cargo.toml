@@ -8,7 +8,7 @@ edition = "2021"
 
 [dependencies]
 byteorder = "1.5.0"
-diesel = { version = "~2.2.0", features = ["postgres_backend"], default-features = false }
+diesel = { version = "~2.3.0", features = ["postgres_backend"], default-features = false }
 
 [features]
 default = ["with-diesel-postgres"]
